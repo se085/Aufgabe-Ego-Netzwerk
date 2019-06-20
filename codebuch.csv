@@ -1,0 +1,22 @@
+CODEBUCH,
+"Im Codebuch definieren Sie, wie und nach welchen Kriterien erfasst werden.",
+,
+Wert,Kommentar
+edgelist,
+von,"definiert den Sender in gerichteten Netzwerken. Entspricht ID in der Nodelist. Keine Sonderzeichen, nur ein Wort"
+zu,"definiert den Empfänger in ungerichteten Netzwerken. Entspricht ID in der Nodelist. Keine Sonderzeichen, etc. "
+gewicht,"besonders nah = 1, nicht besonders nach = 0"
+kontakt,"jeden Tag = 1, mindestens einmal pro Woche = 2, mindestens einmal im Monat = 3, seltener als einmal im Monat"
+beziehungslänge,"weniger als drei Jahre = 1, drei bis sechs Jahre = 2, mehr als sechs Jahre = 3"
+beziehungsart,"Partner/in = 0, Mutter/Vater = 1, Schwester/Bruder = 2, Kind = 3, Nachbar/in = 4, Arbeitskollege = 5, Kommilitone/in = 6, Mitglied in gleicher Gruppe = 7, Freund/in = 8, Ratgeber/in = 9"
+nodelist,
+id,eindeutige Identifikation jedes einzelnen Knotens (vertex)
+name,Name der Person
+sex,"männlich = 1, weiblich = 2, diverse = 3"
+origin name,"deutsch = 1, aus Mittel-/Osteuropa = 2, aus Südeuropa = 3, asiatisch = 4, anderes Land = 5"
+age,"18-20 = 1, 21-23 = 2, 24-26 = 3, 27-30 = 4, 31-40 = 5, 41-50 = 6, 51-60 = 7, 61-70 = 8"
+religion,"evangelisch = 1, katholisch = 2, jüdisch = 3, islamisch = 4, buddhistisch = 5, orthodox = 6, andere = 7, keine = 8"
+education,"Hauptschule = 1, mittlere Reife = 2, Fachhochschulreife = 3, Abitur = 4, Studium = 5, Promotion = 6, weiss nicht = 7"
+,
+,
+99,definiert fehlende Werte
